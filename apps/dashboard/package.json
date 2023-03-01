@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"metadata-scraper": "^0.2.61"
+		"metadata-scraper": "^0.2.61",
+		"svelte-adapter-azure-swa": "^0.13.0"
 	}
 }
