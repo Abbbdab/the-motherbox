@@ -1,6 +1,11 @@
 <script lang="ts">
-  import "../app.css";
-  import type { LayoutData } from "./$types";
+	import '../app.css';
 </script>
 
-<slot />
+<svelte:head>
+	<title>Linkbox</title>
+</svelte:head>
+
+<div class=" h-screen max-h-screen">
+	<slot />
+</div>
